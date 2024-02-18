@@ -1,0 +1,106 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: "Gilroy";
+    box-sizing:border-box;
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+#main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    }
+  #left{
+    position: relative;
+    width: 40%;
+    height: 100%;
+
+ } 
+ #lnav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 30px;
+    gap: 200px;
+ }
+ #lnav i{
+  color: rgba(0, 0, 0, 0.582);
+  font-weight: 900;
+   
+ }
+ #lnavr a{
+    margin-right: 20px;
+ }
+ #lnavr i{
+    color: rgba(0, 0, 255, 0.808);
+ }
+    #left #textcenter{
+        position: absolute;
+        top: 30%;
+        left: 5%;
+        transform: translate(-50,-50%);
+        
+    }
+    #textcenter h{
+        font-size: 90px;
+        font-weight: 700;
+        
+    }
+    #textcenter p{
+        opacity: .6;
+        font-size: 12px;
+        line-height: 15px;
+        
+    }
+
+ #right{
+    width: 60%;
+    height: 100%;
+    background-color: blanchedalmond;
+ }
+ #rtop{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    background-color: chartreuse;
+ }
+ #rbottom{
+    width: 100%;
+    height: 50%;
+    background-image: url(https://plus.unsplash.com/premium_photo-1671379086168-a5d018d583cf?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size:cover ;
+    background-position: center;
+ }
+ #rtopleft{
+    width: 55%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1560607162-26b0344e6943?q=80&w=1530&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA);
+    background-size: cover;
+    background-position: center;
+ }
+ #rtopright{
+    width: 45%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1618897996318-5a901fa6ca71?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+ }
+ #rbottom{
+   display: flex;
+   align-items: end;
+   
+ }
+ #small{
+   height: 50px;
+   width: 100px;
+   background-color: #fff;
+   margin-left: 0.1px;
+   display: flex;
+   align-items: center;
+   gap: 60px;
+   /* justfy-content: center; */
+ }
+
